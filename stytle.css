@@ -1,0 +1,42 @@
+@charset "utf-8";
+body {
+    background-color: #87ceeb;
+}
+li {
+    list-style: none;
+    padding: 1rem;
+}
+a {
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: aqua;
+}
+#one {
+    background-color: white;
+    border-radius: 50px;
+    height: 70vh;
+    width: 70%;
+    position: relative;
+    /**/
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 3rem 5rem;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    top: 1px;
+}
+#one img{
+    position: relative;
+    top:1px;
+    height: auto;
+    /*圖片高度*/
+    width: 50%;
+    /*圖片寬度*/
+    margin:auto;
+    /*圖片位置*/
+}

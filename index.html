@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="stytle.css" rel="stylesheet" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>運動</title>
+    <style>
+        .bg{
+            background: #87ceeb;
+            width: 1000px;
+            height: 250px;
+            margin: 0 auto;
+            padding-top: 1px;
+        } 
+        .shine{
+            width: 1000px;
+            font-family: "Microsoft Yahei";
+            font-size: 100px;
+            text-align: center;
+            background:-webkit-linear-gradient(left,rgb(153, 0, 255),rgb(255, 0, 34))0 0 no-repeat;
+            -webkit-background-size: 160px ;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgb(92, 80, 80,0.5);
+            -webkit-animation: shine 2s infinite;
+        }
+        @-webkit-keyframes shine{
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position: 100% 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <p class="shine">多元運動</p>
+    </div>
+    <div id="one">
+        <ul class="link">
+            <li><a href="./interduce.html">站長介紹</a></li>
+            <li><a href="./ball.html">球類運動</a></li>
+            <li><a href="./run.html">田徑運動</a></li>
+            <li><a href="./fight.html">格鬥運動</a></li>
+            <li><a href="./link.html">相關連結</a></li>
+        </ul>
+        <img src="./img/image.jpg" alt="1">
+    </div>
+</body>
+</html>

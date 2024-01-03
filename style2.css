@@ -1,0 +1,107 @@
+@charset "utf-8";
+body {
+    background-color: #87ceeb;
+}
+#up p {
+    font-size: 100px;
+}
+#up {
+    padding: 3rem 0 1rem 0;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid black;
+    height: 100px;
+
+}
+.link {
+    display: flex;
+    gap: 100px;
+}
+li {
+    list-style: none;
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+#first {
+
+    display: flex;
+    background-color: #fff;
+    height: auto;
+    width: 50%;
+    border-radius: 45px;
+    /*邊框的圓滑度*/
+    padding: 1rem;
+    position: relative;
+    top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#first ul {
+    margin: auto;
+    /*內文要靠哪邊*/
+}
+
+#first li {
+    font-size: 30px;
+}
+
+#first img {
+    height: 20rem;
+    width: auto;
+    border-radius: 20px;
+    margin-left: auto;
+
+}
+#HOME {
+    display: flex;
+    background-color: #fff;
+    height: auto;
+    width: 100vh;
+    border-radius: 45px;
+    /*邊框的圓滑度*/
+    padding: 1rem;
+    /*上下左右的寬度*/
+    position: relative;
+    top: 50px;
+    /*跟上面的間隔*/
+    bottom: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 103vh;
+}
+
+#HOME p {
+    font-size: 30px;
+}
+
+#HOME img {
+    height: 20rem;
+    width: auto;
+}
+#school {
+    display: flex;
+    background-color: #fff;
+    height: auto;
+    width: 100vh;
+    border-radius: 45px;
+    /*邊框的圓滑度*/
+    padding: 1rem;
+    position: relative;
+    top: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#school p {
+    font-size: 30px;
+}
+
+#school img {
+    height: 20rem;
+    width: auto;
+}

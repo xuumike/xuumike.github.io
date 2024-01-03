@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#box {
+    background-color: white;
+    border-radius: 50px;
+    height: auto;
+    width: 70%;
+    position: relative;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 3rem 5rem;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    top: 35px;
+    flex-direction: column;
+}
+#box p{
+    margin:0 auto;
+    font-size: 40px;
+}
+#box img{
+    top:0px;
+    height: auto;
+    /*圖片高度*/
+    width: 30%;
+    /*圖片寬度*/
+    margin:auto;
+    /*圖片位置*/
+}
